@@ -5,7 +5,7 @@
   </div>
 </template>
 <script setup lang="ts">
-import type { Company } from '@esimonorepo/shared-types';
+import type { Company } from '@esimonorepo/shared-types'
 
 const company = {
   id: 1,
