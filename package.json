@@ -1,0 +1,21 @@
+{
+  "name": "esi-mono",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.2",
+  "dependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.0"
+  },
+  "lint-staged": {
+    "**/*.{js,ts,vue}": "eslint --fix",
+    "**/*.{css,scss}": "stylelint --fix"
+  }
+}
