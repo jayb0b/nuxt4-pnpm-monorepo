@@ -5,5 +5,6 @@ export default createConfigForNuxt({
   plugins: ['prettier'],
   rules: {
     'prettier/prettier': 'error',
+    'vue/multi-word-component-names': 'off',
   },
 });
