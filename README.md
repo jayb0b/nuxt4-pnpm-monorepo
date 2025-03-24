@@ -32,3 +32,7 @@ You can lint everything via pnpm run -r lint. Formatting will be corrected on sa
 ### Nuxt 4 ready
 
 Everything here runs in Nuxt 4 compatibility mode. Weirdly, compatibility mode doesn't seem to inherit from the base layer so I included it in the extended website.
+
+### Wishlist
+
+I'd like to have Husky integrated, but had no luck getting it running. Got a linting error about index.vue being a one word component. Tried a bunch of workarounds, no dice.
